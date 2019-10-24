@@ -1,0 +1,1 @@
+var app = angular.module('youlexuan',[]);//用于不需要分页的页面

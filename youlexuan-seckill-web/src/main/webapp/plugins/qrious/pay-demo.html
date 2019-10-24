@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>生成二维码</title>
+</head>
+<body>
+    <img id="qrious">
+    <script src="dist/umd/qrious.min.js"></script>
+    <script>
+        var qr = new QRious({
+            element:document.getElementById('qrious'),
+            size:250,
+            level:'H',
+            value:'http://www.jd.com'
+        });
+    </script>
+</body>
+</html>
